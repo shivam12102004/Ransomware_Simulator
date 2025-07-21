@@ -1,0 +1,8 @@
+cd C:\
+mkdir Important_File
+cd Important_File
+echo This is important1 > important1.txt
+echo This is important2 > important2.txt
+echo Config settings inside > config.txt
+echo My notes are written here > notes.docx
+echo This is a fake image file > photo.jpg
