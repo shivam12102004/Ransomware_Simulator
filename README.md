@@ -349,7 +349,7 @@ This module helps in understanding:
 - How ransomware targets sensitive folders like WhatsApp.
 - How AES-256 CBC works with key + IV combo.
 - The impact of granting full storage permission to unknown apps.
-# Decryptor Module Configuration (Android - Dart/Flutter Based)
+# Decryptor.apk(Android Ramsomware(Decryptor))
 
 This module is the counterpart to the fake Spotify Encryptor APK created using Flutter (Dart). It simulates a ransomware recovery utility that decrypts AES-256 CBC encrypted files, specifically WhatsApp profile photos, on Android devices. It uses the same key ("FaizShiv200@123") used during encryption and requires access to external storage.
 
