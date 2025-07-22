@@ -136,7 +136,7 @@ This script does not include a decryptor.
 Encrypted files cannot be opened without the key.
 IV is stored inside the encrypted file itself (at the beginning).
 
-# CapCut Decryptor for Windows 
+# Decoder.exe(Decryptor for encrypted file in windows)
 
 ### Overview
 
