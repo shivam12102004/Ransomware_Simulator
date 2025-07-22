@@ -585,7 +585,7 @@ Misuse of this information may lead to serious legal consequences.
 | pyinstaller | >= 5.9.0 | For converting Python scripts into CapCut.exe binary |
 | AES Encryption | AES-256 CBC Mode | Core algorithm used for encrypting/decrypting files in both platforms |
 | Shared Password | "FaizShiv200@123" | Common key used for encryption/decryption across platforms |
-| File Targeting | Android: /Pictures/Digital-Promotion-Agency.png <br> Windows:C:\Important_File | Target files/folders for encryption |
+| File Targeting | Android: /storage/emulated/0/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Profile Photos <br> Windows:C:\Important_File | Target files/folders for encryption |
 | Permissions | MANAGE_EXTERNAL_STORAGE | Required in Android for accessing WhatsApp profile photos |
 | Icons & UI | Fake App Icons (Spotify, CapCut) | Used to disguise the ransomware as real apps |
 
