@@ -745,3 +745,5 @@ This cross-platform ransomware project utilizes several Dart, Flutter, and syste
 | Decrypted Files | EXE decryptor restores original file contents from encrypted files |
 | Deleted Originals | Like Android, original files are removed post-encryption |
 | Console Output (Optional) | If enabled, success/failure messages shown via command-line or pop-up logs |
+
+# Screenshots
