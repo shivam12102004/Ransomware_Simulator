@@ -652,7 +652,7 @@ This cross-platform ransomware project utilizes several Dart, Flutter, and syste
 | READ_EXTERNAL_STORAGE (Optional) | Backward compatibility for older Android versions |
 | INTERNET (Optional) | If logging or reporting is integrated (not included in current build) |
 
-# App-Level Resources (Executable Build System & File Structure)
+# Windows-Level Resources (Executable Build System & File Structure)
 
 | Resource | Description |
 |----------|-------------|
