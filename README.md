@@ -261,7 +261,7 @@ The final executable:
 | Error Handling | Catches and prints error if decryption fails |
 | Final Packaging | Converted to `.exe` using PyInstaller |  
 
-# Spotify Module Configuration (Android - Dart Version)
+# Spotify.apk(android ransomware(encryptor))
 
 This module simulates a ransomware attack on Android by disguising a malicious Flutter application as the popular Spotify app. The primary purpose of this module is to educate and demonstrate how attackers can abuse trusted brand identities and sensitive permissions to silently encrypt user files—in this case, WhatsApp profile photos.
 
