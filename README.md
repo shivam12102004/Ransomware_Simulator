@@ -37,7 +37,9 @@ This simulator is intended strictly for **ethical**, **educational**, and **cybe
 ![Android Ransomware(Encryptor) Architecture Diagram](./apk%20files%20%20AND%20exe%20Files/Enc_Arch.jpg)
 ## **Android Ransomware(Decryptor) Architecture Diagram**
 ![Android Ransomware(Decryptor) Architecture Diagram](./apk%20files%20%20AND%20exe%20Files/Decr_Arch.jpg)
-# **CapCut.exe (Windows File Encryptor)**
+
+
+# **CapCut.exe (Windows Ransomware(Encryptor))**
 
 This component is a Python-based ransomware encryptor disguised as CapCut.exe. It is designed for educational use to demonstrate how ransomware encrypts files using AES-256 encryption. The program encrypts files in a specified folder or a specific file and deletes the original version.
 
@@ -136,7 +138,8 @@ This script does not include a decryptor.
 Encrypted files cannot be opened without the key.
 IV is stored inside the encrypted file itself (at the beginning).
 
-# Decoder.exe(Decryptor for encrypted file in windows)
+
+# Decoder.exe(Windows Ransomware(Decryptor))
 
 ### Overview
 
@@ -261,7 +264,8 @@ The final executable:
 | Error Handling | Catches and prints error if decryption fails |
 | Final Packaging | Converted to `.exe` using PyInstaller |  
 
-# Spotify.apk(android ransomware(encryptor))
+
+# Spotify.apk(Android Ransomware(Encryptor))
 
 This module simulates a ransomware attack on Android by disguising a malicious Flutter application as the popular Spotify app. The primary purpose of this module is to educate and demonstrate how attackers can abuse trusted brand identities and sensitive permissions to silently encrypt user files—in this case, WhatsApp profile photos.
 
@@ -441,7 +445,8 @@ This module demonstrates:
 - The concept of file scanning and targeted decryption within app directories.
 - Simulates real-world decryption tools disguised as helpful utilities.
 
-  # Deployment (Final Phase) – Simple & Detailed
+
+# Deployment
 
 ## Objective:
 To organize and deploy all 4 components of the ransomware project effectively across both Android and Windows platforms, making it easy to execute, disguise, share, and manage.
